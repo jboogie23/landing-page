@@ -1,29 +1,121 @@
 * {
     font-family: Roboto Slab, Helvetica, sans-serif;
+
 }
 
 body {
     margin: 0%;
 }
 
-ul {
-    list-style: none;
+/* MENU ROW*/
+
+.menu-container {
     display: flex;
     background-color: #1F2937;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
     color: white;
     margin: 0;
-    height: 100px;
+    height: 50px;
     align-items: center;
+    width: 1000px;
     gap: 20px;
 }
 
-ul .header {
-    font-size: large;
+.menu .header {
+    font-size: 24px;
+    color: #F9FAF8;
     margin-right: auto;
 }
 
-ul .link{
+.menu .link{
     margin-right:20px;
     color: lightgrey
+}
+
+/* HERO ROW*/
+
+.hero-container {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* border-color: red; */
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    flex-basis: 100px;
+}
+
+.hero-left, .hero-right {
+    /* border-color: red; */
+    /* border-style: solid; */
+    width: 600px;
+}
+
+.hero-container .hero-header {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.hero-container .hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.hero-container button {
+    background-color: #3882F6;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.hero-container img {
+    width: 600px;
+    border-radius: 50px;
+}
+
+/* CAROUSEL ROW*/
+
+.carousel-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.carousel-images {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.carousel-images img {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-images img {
+    width: 400px;
+}
+
+
+/* QUOTE ROW*/
+
+.quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
 }
 
